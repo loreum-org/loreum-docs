@@ -61,7 +61,7 @@ gantt
     section Team (20M)
         .                       :done, gap, 2025-01, 0d
         Initial Unlock (10M)    :done, t1, 2025-06, 1M
-        2-Year Vesting (10M)    :t2, 2025-06, 24M
+        1-Year Vesting (10M)    :t2, 2025-06, 12M
     
     section Investors (20M)
         Initial Unlock (10M)    :done, i1, 2025-06, 1M
