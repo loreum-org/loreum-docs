@@ -28,3 +28,7 @@
   --ifm-color-primary-lightest: #dce0e6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.mermaid text {
+  font-size: 16px !important; /* Adjust the size as needed */
+}

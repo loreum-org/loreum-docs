@@ -17,7 +17,7 @@ module.exports = {
       title: 'Loreum',
       logo: {
         alt: 'Loreum Logo',
-        src: 'https://cdn.loreum.org/logos/white.svg',
+        src: 'https://cdn.loreum.org/logos/white.png',
       },
       items: [
         {to: '/', label: 'Docs', position: 'left'},
@@ -36,6 +36,7 @@ module.exports = {
             {label: 'Network', to: '/network'},
             {label: 'Architecture', to: '/architecture'},
             {label: 'Governance', to: '/governance'},
+            {label: 'Tokenomics', to: '/tokenomics'},
           ],
         },
         {

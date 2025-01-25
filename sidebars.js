@@ -25,6 +25,11 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'tokenomics',
+      label: 'Tokenomics',
+    },
+    {
+      type: 'doc',
       id: 'architecture',
       label: 'Architecture',
     },
