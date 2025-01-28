@@ -46,7 +46,7 @@ Distributed through:
 - **Incentives**: Used to reward active contributors, participants, and developers.
 - **Market Transactions**: Facilitates transactions within the Loreum ecosystem, including marketplace activities or fee payments.
 
-## Vesting Schedule (if applicable)
+## Vesting Schedule
 
 - **Team Tokens**: 50% fungible, 50% vested over 12 months.
 - **Investor Tokens**: 50% fungible, 50% vested over 12 months.
