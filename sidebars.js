@@ -18,11 +18,11 @@ module.exports = {
       id: 'mission',
       label: 'Mission',
     },
-    {
-      type: 'doc',
-      id: 'getting-started',
-      label: 'Getting Started',
-    },
+    // {
+    //   type: 'doc',
+    //   id: 'getting-started',
+    //   label: 'Getting Started',
+    // },
     {
       type: 'doc',
       id: 'network',

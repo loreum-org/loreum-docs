@@ -40,7 +40,7 @@ module.exports = {
           items: [
             {label: 'Introduction', to: '/'},
             {label: 'Mission', to: '/mission'},
-            {label: 'Getting Started', to: '/getting-started'},
+            // {label: 'Getting Started', to: '/getting-started'},
             {label: 'Network', to: '/network'},
             {label: 'Architecture', to: '/architecture'},
             {label: 'Governance', to: '/governance'},
