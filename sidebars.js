@@ -10,6 +10,11 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'whitepaper',
+      label: 'Whitepaper',
+    },
+    {
+      type: 'doc',
       id: 'mission',
       label: 'Mission',
     },

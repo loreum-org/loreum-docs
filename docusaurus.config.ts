@@ -11,7 +11,15 @@ module.exports = {
   favicon: 'https://cdn.loreum.org/logos/white.svg',
   organizationName: 'Loreum',
   projectName: 'docs',
-
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        src: 'https://umami.loreum.org/script.js',
+        "data-website-id": "b4198c1b-6151-48bb-a3b9-231c4c54d6a0"
+      },
+    },
+  ],
   themeConfig: {
     navbar: {
       title: 'Loreum',
@@ -37,6 +45,7 @@ module.exports = {
             {label: 'Architecture', to: '/architecture'},
             {label: 'Governance', to: '/governance'},
             {label: 'Tokenomics', to: '/tokenomics'},
+            {label: 'Whitepaper', to: '/whitepaper'},
           ],
         },
         {
