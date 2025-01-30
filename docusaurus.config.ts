@@ -31,7 +31,7 @@ module.exports = {
       title: 'Loreum',
       logo: {
         alt: 'Loreum Logo',
-        src: 'https://cdn.loreum.org/logos/white.png',
+        src: 'https://cdn.loreum.org/logos/black.png',
       },
       items: [
         {to: '/', label: 'Docs', position: 'left'},
