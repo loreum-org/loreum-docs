@@ -6,8 +6,8 @@ module.exports = {
   tagline: 'Documentation for the Loreum Network',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
-  // onBrokenLinks: 'throw',
-  // onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'https://cdn.loreum.org/logos/white.svg',
   organizationName: 'Loreum',
   projectName: 'docs',
@@ -74,19 +74,7 @@ module.exports = {
           editUrl: 'https://github.com/loreum-org/docs/edit/main/',
           routeBasePath: '/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   editUrl: 'https://github.com/loreum-org/docs/edit/main/blog/',
-        // },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
       },
     ],
-  ],
-
-  markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
+  ]
 };

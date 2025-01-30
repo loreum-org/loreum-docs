@@ -1,4 +1,0 @@
-mkdir -p docs/core
-mkdir -p docs/guides/setup
-mkdir -p docs/guides/advanced
-mkdir -p docs/api 

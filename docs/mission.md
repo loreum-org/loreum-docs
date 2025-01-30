@@ -79,9 +79,3 @@ The Loreum Network supports a wide range of use cases and applications, such as:
 - **Cross-Industry Collaboration**: Facilitating interoperable ecosystems for businesses to share data and insights.
 
 
-
-## Get Started
-
-Ready to join the future of decentralized intelligence? 
-[Start building](getting-started.md) with Loreum today.
-

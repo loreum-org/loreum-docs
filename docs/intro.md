@@ -46,19 +46,6 @@ The Loreum Network is built to empower decentralized intelligence and decision-m
 
 ---
 
-## High-Level Architecture
-
-Here’s a visual representation of the Loreum Network’s architecture:
-
-```mermaid
-graph TD
-    A[Loreum Node A] -->|Shares Data| B[Loreum Node B]
-    A -->|Requests Query| C[Loreum Node C]
-    B -->|Token Incentives| D[Network]
-    C -->|Encrypted Data Exchange| D
-    D -->|Process Query| E[Intelligence]
-```
-
 ### Components
 1. **Loreum Nodes**:
    - Autonomous units managing local data, sensors, and agents.
