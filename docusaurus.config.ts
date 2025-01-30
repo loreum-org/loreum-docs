@@ -84,9 +84,6 @@ module.exports = {
         //   showReadingTime: true,
         //   editUrl: 'https://github.com/loreum-org/docs/edit/main/blog/',
         // },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
       },
     ],
   ],
