@@ -2,9 +2,15 @@
 # Loreum Tokenomics
 ## Allocation Breakdown
 
-<div style={{textAlign: 'center', marginBottom: '2rem'}}>
-  <img src="/img/tokenomics.svg" alt="Loreum Network" width="800" />
-</div>
+```mermaid
+pie title Total Supply: 100M
+    "Air Drops" : 10
+    "Public Sale" : 20
+    "Team Allocation" : 20
+    "Investors Allocation" : 20
+    "Treasury" : 20
+    "Liquidity Pools" : 10
+```
 
 ## Token Distribution
 
@@ -46,5 +52,37 @@ Distributed through:
 - **Team Tokens**: 50% fungible, 50% vested over 12 months.
 - **Investor Tokens**: 50% fungible, 50% vested over 12 months.
 - **Airdrops**: Distributed gradually in Seasons to avoid market disruption.
+
+```mermaid
+gantt
+    title LORE Token Emissions Schedule
+    dateFormat  YYYY-MM
+    axisFormat  %Y-%m
+    
+    section Team (20M)
+        .                       :done, gap, 2025-01, 0d
+        Initial Unlock (10M)    :done, t1, 2025-06, 1M
+        1-Year Vesting (10M)    :t2, 2025-06, 12M
+    
+    section Investors (20M)
+        Initial Unlock (10M)    :done, i1, 2025-06, 1M
+        1-Year Vesting (10M)    :i2, 2025-06, 12M
+        
+    section Treasury (20M)
+        Protocol Growth         :tr1, 2025-06, 36M
+        Ecosystem Rewards       :tr2, 2025-06, 36M
+        
+    section Public Sale (20M)
+        TGE Sale                :done, p1, 2026-01, 1M
+
+    section Airdrops (10M)
+        Season 1 Airdrop        :p2, 2025-11, 6M
+        Season 2 Airdrop        :p3, after p2, 6M
+        Season 3 Airdrop        :p4, after p3, 6M
+        Season 3 Airdrop        :p5, after p4, 6M
+        
+    section Liquidity (10M)
+        DEX Pools              :l1, 2025-06, 1M
+```
 
 This tokenomics structure ensures fair distribution, long-term project sustainability, and alignment with the community and stakeholders.

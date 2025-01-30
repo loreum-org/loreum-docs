@@ -2,12 +2,18 @@
 // This file initializes the categories and structure for the documentation site.
 
 module.exports = {
+  themes: ['@docusaurus/theme-mermaid'],
+  // In order for Mermaid code blocks in Markdown to work,
+  // you also need to enable the Remark plugin with this option
+  markdown: {
+    mermaid: true,
+  },
   title: 'Loreum Docs',
   tagline: 'Documentation for the Loreum Network',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenLinks: 'throw',
+  // onBrokenMarkdownLinks: 'warn',
   favicon: 'https://cdn.loreum.org/logos/white.svg',
   organizationName: 'Loreum',
   projectName: 'docs',
@@ -74,7 +80,16 @@ module.exports = {
           editUrl: 'https://github.com/loreum-org/docs/edit/main/',
           routeBasePath: '/',
         },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/loreum-org/docs/edit/main/blog/',
+        // },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       },
     ],
-  ]
+  ],
+
+
 };
