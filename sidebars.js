@@ -10,19 +10,14 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'whitepaper',
-      label: 'Whitepaper',
-    },
-    {
-      type: 'doc',
       id: 'mission',
       label: 'Mission',
     },
-    // {
-    //   type: 'doc',
-    //   id: 'getting-started',
-    //   label: 'Getting Started',
-    // },
+    {
+      type: 'doc',
+      id: 'whitepaper',
+      label: 'Whitepaper',
+    },
     {
       type: 'doc',
       id: 'network',
@@ -42,11 +37,6 @@ module.exports = {
       type: 'doc',
       id: 'governance',
       label: 'Governance',
-    },
-    {
-      type: 'doc',
-      id: 'glossary',
-      label: 'Glossary',
     }
   ],
 };

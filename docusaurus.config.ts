@@ -6,8 +6,8 @@ module.exports = {
   tagline: 'Documentation for the Loreum Network',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenLinks: 'throw',
+  // onBrokenMarkdownLinks: 'warn',
   favicon: 'https://cdn.loreum.org/logos/white.svg',
   organizationName: 'Loreum',
   projectName: 'docs',
@@ -40,7 +40,6 @@ module.exports = {
           items: [
             {label: 'Introduction', to: '/'},
             {label: 'Mission', to: '/mission'},
-            // {label: 'Getting Started', to: '/getting-started'},
             {label: 'Network', to: '/network'},
             {label: 'Architecture', to: '/architecture'},
             {label: 'Governance', to: '/governance'},
@@ -75,10 +74,10 @@ module.exports = {
           editUrl: 'https://github.com/loreum-org/docs/edit/main/',
           routeBasePath: '/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/loreum-org/docs/edit/main/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/loreum-org/docs/edit/main/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
