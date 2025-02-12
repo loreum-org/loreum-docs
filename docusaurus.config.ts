@@ -44,12 +44,7 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {label: 'Introduction', to: '/'},
             {label: 'Mission', to: '/mission'},
-            {label: 'Network', to: '/network'},
-            {label: 'Architecture', to: '/architecture'},
-            {label: 'Governance', to: '/governance'},
-            {label: 'Tokenomics', to: '/tokenomics'},
             {label: 'Whitepaper', to: '/whitepaper'},
           ],
         },

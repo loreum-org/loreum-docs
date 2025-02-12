@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Loreum: A Decentralized AI & Knowledge Network}
+\author{Chad Lynch}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Loreum is a decentralized, peer-to-peer AI and knowledge-sharing network built on blockchain technology. By leveraging modular agents, vectorized knowledge retrieval, and tokenized incentives, Loreum provides a trust-minimized infrastructure for distributed intelligence. This white paper outlines its architecture, technical design, and economic model.
+\end{abstract}
+
+\section{Introduction}
+As AI and knowledge systems evolve, centralized control presents risks in terms of censorship, reliability, and access. Loreum aims to create an autonomous network where AI, agents, and users collaborate securely and transparently.
+
+\section{Core Components}
+\subsection{Loreum Cortex}
+The Cortex is the core of Loreum, enabling decentralized knowledge processing through Retrieval-Augmented Generation (RAG) and modular AI inference.
+
+\subsection{Distributed Vector Database}
+Loreum employs a local vector-embedded database per node while maintaining a shared ledger that tracks node specializations and reputation scores.
+
+\subsection{Peer-to-Peer (P2P) Network}
+Built using libp2p in Golang, Loreum enables nodes to communicate and route queries efficiently based on specialization and reputation.
+
+\subsection{Reputation System}
+Nodes stake the Lore token to participate in the network, with reputation scores based on accuracy, reliability, and contribution.
+
+\subsection{Consensus and Storage}
+Loreum integrates EigenDA for decentralized storage and considers Optimistic and EigenLayer-based consensus mechanisms.
+
+\section{Economic Model}
+Loreum utilizes token staking, query fees, and contribution rewards to sustain network incentives. Nodes with high reputation scores gain higher query routing priority and rewards.
+
+\section{Security and Privacy}
+Loreum implements encryption, zk-proofs, and access-controlled query processing to ensure data privacy while enabling knowledge exchange.
+
+\section{Use Cases}
+\begin{itemize}
+    \item Decentralized AI Model Hosting
+    \item Cross-Industry Data Collaboration
+    \item DeFi Analytics and Risk Assessment
+    \item Supply Chain Intelligence
+    \item Personalized AI Agents
+\end{itemize}
+
+\section{Conclusion}
+Loreum envisions a scalable, decentralized knowledge ecosystem where AI and users collaborate in a trustless, privacy-preserving manner. The combination of modular agents, decentralized storage, and tokenized incentives forms a robust foundation for the next era of AI-driven intelligence.
+
+\end{document}

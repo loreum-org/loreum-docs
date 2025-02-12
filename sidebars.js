@@ -15,6 +15,11 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'roadmap',
+      label: 'Roadmap',
+    },    
+    {
+      type: 'doc',
       id: 'whitepaper',
       label: 'Whitepaper',
     },
