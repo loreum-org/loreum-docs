@@ -42,7 +42,20 @@ module.exports = {
       type: 'doc',
       id: 'governance',
       label: 'Governance',
-    }
+    },
+    {
+      type: 'category',
+      label: 'Agreements',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: 'doc',
+          id: 'finders-agreement',
+          label: 'Finders Agreement',
+        },
+      ],
+    },
   ],
 };
 
