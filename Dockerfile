@@ -1,5 +1,4 @@
-# Use an official lightweight Nginx image as base
-FROM nginx:alpine
+FROM nginx:latest
 
 # Copy the static files into the container's document root
 COPY build /usr/share/nginx/html/
