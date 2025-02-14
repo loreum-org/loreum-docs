@@ -12,12 +12,7 @@ module.exports = {
       type: 'doc',
       id: 'mission',
       label: 'Mission',
-    },
-    {
-      type: 'doc',
-      id: 'roadmap',
-      label: 'Roadmap',
-    },    
+    },  
     {
       type: 'doc',
       id: 'whitepaper',
@@ -30,6 +25,11 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'consensus',
+      label: 'Consensus',
+    },  
+    {
+      type: 'doc',
       id: 'tokenomics',
       label: 'Tokenomics',
     },
@@ -40,9 +40,14 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'roadmap',
+      label: 'Roadmap',
+    },
+    {
+      type: 'doc',
       id: 'governance',
       label: 'Governance',
-    },
+    },    
     {
       type: 'category',
       label: 'Agreements',
