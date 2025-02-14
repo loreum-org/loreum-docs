@@ -44,8 +44,8 @@ module.exports = {
         {
           title: 'Docs',
           items: [
+            {label: 'Overview', to: '/overview'},
             {label: 'Mission', to: '/mission'},
-            {label: 'Whitepaper', to: '/whitepaper'},
           ],
         },
         {
@@ -62,7 +62,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Loreum DAO LLC`,
+      copyright: `Copyright © ${new Date().getFullYear()} Loreum Labs, Ltd.`,
     },
   },
 
