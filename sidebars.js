@@ -15,8 +15,8 @@ module.exports = {
     },  
     {
       type: 'doc',
-      id: 'whitepaper',
-      label: 'Whitepaper',
+      id: 'overview',
+      label: 'Overview',
     },
     {
       type: 'doc',
@@ -27,7 +27,12 @@ module.exports = {
       type: 'doc',
       id: 'consensus',
       label: 'Consensus',
-    },  
+    },
+    {
+      type: 'doc',
+      id: 'slashing',
+      label: 'Slashing'
+    },
     {
       type: 'doc',
       id: 'tokenomics',
