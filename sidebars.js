@@ -19,19 +19,32 @@ module.exports = {
       label: 'Overview',
     },
     {
-      type: 'doc',
-      id: 'network',
-      label: 'Network',
-    },
-    {
-      type: 'doc',
-      id: 'consensus',
+      type: 'category',
       label: 'Consensus',
-    },
-    {
-      type: 'doc',
-      id: 'slashing',
-      label: 'Slashing'
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: 'doc',
+          id: 'dag-abft',
+          label: 'Overview',
+        },
+        {
+          type: 'doc',
+          id: 'dag',
+          label: 'Directed Acyclic Graph',
+        },
+        {
+          type: 'doc',
+          id: 'abft',
+          label: 'Asynchronous BFT',
+        },
+        {
+          type: 'doc',
+          id: 'slashing',
+          label: 'Fraud Prevention'
+        },        
+      ],
     },
     {
       type: 'doc',

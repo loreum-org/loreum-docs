@@ -1,4 +1,4 @@
-# **DAG-Based Asynchronous Byzantine Fault Tolerance (DAG-aBFT)**
+# DAG-aBFT - DAG Based Asynchronous Byzantine Fault Tolerance
 ## **A Leaderless, Scalable Consensus for Decentralized AI Networks**
 
 ---
@@ -150,5 +150,6 @@ DAG-aBFT is a **scalable, leaderless, and efficient consensus mechanism** tailor
 
 ## **🔗 Links & Contributions**
 
-📜 **Whitepaper**: [GitHub Repository](https://github.com/loreum-org/cortex)  
-🌐 **Website**: [Loreum.org](https://www.loreum.org)
+📜 **Code**: [GitHub Repository](https://github.com/loreum-org/cortex)  
+💡 **Builders**: Join the discussion on [Telegram](https://t.me/loreum_dao)  
+🌐 **Website**: [Loreum.org](https://www.loreum.org)  
