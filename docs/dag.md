@@ -5,7 +5,7 @@
 
 ## **Abstract**
 
-This paper details the **Directed Acyclic Graph (DAG) structure** used in **Loreum's decentralized intelligence network**. Unlike traditional **blockchain-based ledgers**, DAG provides a **scalable, non-linear transaction processing model** where each transaction is a **vertex**, referencing multiple parents to ensure **parallel processing and rapid confirmation**. Through **gossip-based propagation and parent validation mechanisms**, Loreum achieves a **leaderless, high-throughput consensus model** that enabl...
+This paper details the **Directed Acyclic Graph (DAG) structure** used in **Loreum's decentralized intelligence network**. Unlike traditional **blockchain-based ledgers**, DAG provides a **scalable, non-linear transaction processing model** where each transaction is a **vertex**, referencing multiple parents to ensure **parallel processing and rapid confirmation**. Through **gossip-based propagation and parent validation mechanisms**, Loreum achieves a **leaderless**, high-throughput consensus model. 
 
 ---
 
