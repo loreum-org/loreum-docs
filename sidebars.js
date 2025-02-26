@@ -7,16 +7,11 @@ module.exports = {
       type: 'doc',
       id: 'intro',
       label: 'Introduction',
-    },
+    }, 
     {
       type: 'doc',
-      id: 'mission',
-      label: 'Mission',
-    },  
-    {
-      type: 'doc',
-      id: 'overview',
-      label: 'Overview',
+      id: 'litepaper',
+      label: 'Litepaper',
     },
     {
       type: 'category',
