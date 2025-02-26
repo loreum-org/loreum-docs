@@ -2,7 +2,6 @@
 // This file initializes the categories and structure for the documentation site.
 
 module.exports = {
-  themes: ['@docusaurus/theme-mermaid'],
   // In order for Mermaid code blocks in Markdown to work,
   // you also need to enable the Remark plugin with this option
   markdown: {
