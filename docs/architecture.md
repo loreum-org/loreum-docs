@@ -30,7 +30,7 @@ Loreum is built on a decentralized, modular technology stack that ensures privac
 By combining P2P networking, blockchain security, decentralized AI computation, and privacy-preserving mechanisms, Loreum creates an autonomous, intelligent AI inference network that is scalable, trustless, and censorship-resistant.
 
 ## Loreum Cortex
-A Loreum Cortex is a node module, a decentralized unit that serves as the foundation of the Loreum Network. Each cortex is designed to operate privately and autonomously while contributing monetizable services and intelligence to the broader network.
+A Loreum Cortex node is a decentralized unit that serves as the foundation of the Loreum Network. Each cortex is designed to operate privately and autonomously while contributing monetizable services and intelligence to the broader network.
 
 ### 1. Data Processing and Storage
 - Collecting, processing, and storing data from local and external sources

@@ -60,7 +60,12 @@ module.exports = {
           label: 'Fraud Prevention'
         },        
       ],
-    },    
+    },
+    {
+      type: 'doc',
+      id: 'landscape',
+      label: 'Landscape',
+    },      
     {
       type: 'doc',
       id: 'architecture',
