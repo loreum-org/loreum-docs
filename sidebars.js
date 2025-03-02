@@ -94,6 +94,11 @@ module.exports = {
         },
         {
           type: 'doc',
+          id: 'reputation',
+          label: 'Reputation'
+        },
+        {
+          type: 'doc',
           id: 'slashing',
           label: 'Fraud Prevention'
         },        
