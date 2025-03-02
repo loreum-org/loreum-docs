@@ -1,4 +1,4 @@
-# **Key Metrics Tracked by Loreum & Their Trends**
+# **Key Product Metrics Tracked by Loreum & Their Trends**
 
 ## **Abstract**
 Loreum monitors key performance indicators (KPIs) to assess **network performance, adoption, economic sustainability, and AI query efficiency**. By analyzing trends in network utilization, revenue, and developer adoption, Loreum ensures continuous optimization and long-term scalability. This paper outlines the primary metrics tracked and their current trends.

@@ -39,10 +39,33 @@ module.exports = {
         label: 'Monetization',
     },
     {
+      type: 'category',
+      label: 'Metrics',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: 'doc',
+          id: 'product-metrics',
+          label: 'Product',
+        },
+        {
+          type: 'doc',
+          id: 'financial-metrics',
+          label: 'Financial',
+        },
+        {
+          type: 'doc',
+          id: 'forecast',
+          label: 'Forecast',
+        }      
+      ],
+    },
+    {
       type: 'doc',
-      id: 'metrics',
-      label: 'Key Metrics',
-  },    
+      id: 'risk',
+      label: 'Risks',
+    },      
     {
       type: 'doc',
       id: 'tokenomics',
