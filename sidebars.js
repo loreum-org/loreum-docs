@@ -100,6 +100,39 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
+      label: 'Cortex',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: 'doc',
+          id: 'cortex',
+          label: 'Overview',
+        },
+        {
+          type: 'doc',
+          id: 'rag',
+          label: 'RAG',
+        },
+        {
+          type: 'doc',
+          id: 'query-processing',
+          label: 'Query Processing',
+        },
+        {
+          type: 'doc',
+          id: 'agent-hub',
+          label: 'Agent Hub'
+        },
+        {
+          type: 'doc',
+          id: 'sensor-hub',
+          label: 'Sensor Hub'
+        },          
+      ],
+    },    
+    {
       type: 'doc',
       id: 'landscape',
       label: 'Landscape',
