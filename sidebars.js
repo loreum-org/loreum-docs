@@ -14,6 +14,11 @@ module.exports = {
       label: 'Litepaper',
     },
     {
+      type: 'doc',
+      id: 'mission',
+      label: 'Mission',
+    },    
+    {
       type: 'category',
       label: 'Consensus',
       collapsible: true,
