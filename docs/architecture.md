@@ -1,10 +1,36 @@
 # Systems Architecture
 
-## Overview
-The Loreum Network's architecture is designed to support a decentralized, autonomous ecosystem where human and AI agents collaborate seamlessly. Below is an in-depth look at its core components:
+Loreum is built on a decentralized, modular technology stack that ensures privacy, efficiency, and scalability for AI-driven knowledge inference. The key components include:
 
-## Loreum Node
-A Loreum Node is a modular, decentralized unit that serves as the foundation of the Loreum Network. Each node is designed to operate autonomously while contributing monetizable data and intelligence to the broader network.
+1. Peer-to-Peer (P2P) Networking
+	-	Built using libp2p (Golang) to enable a fully decentralized, permissionless network for AI inference.
+	-	Supports direct node-to-node communication, reducing reliance on centralized servers.
+
+2. Blockchain & Consensus Mechanism
+	-	Loreum Indexing Chain tracks node reputation, specialization, and query routing.
+	-	Uses a Directed Acyclic Graph (DAG) with asynchronous Byzantine Fault Tolerance (aBFT) to ensure high throughput and event finality.
+	-	Implements a staking-based reputation system where nodes build trust based on accuracy and performance.
+	-	Query payments in stablecoins on Ethereum Layer 2, ensuring fast, cost-efficient transactions.
+
+3. AI & Privacy-Preserving Computation
+	-	Decentralized Retrieval-Augmented Generation (RAG): Embeds vectorized knowledge from multiple nodes for optimized inference.
+	-	Secure Multi-Party Computation (MPC): Enables privacy-preserving AI queries without exposing raw data.
+	-	Federated Learning: Nodes collaborate on AI training while keeping data decentralized.
+
+4. Data & Storage Infrastructure
+	-	EigenDA (EigenLayer Data Availability) for distributed AI data storage.
+	-	IPFS/Filecoin for off-chain decentralized storage of large datasets.
+	-	Local Vector Databases in each node for privacy preserving RAG for optimized AI retrieval.
+
+5. Smart Contract & Query Execution
+	-	EVM-compatible smart contracts handle staking, node reputation, and payment settlements.
+	-	Layer 2 rollups ensure low-cost, scalable execution.
+	-	Off-chain compute marketplaces where nodes price their AI models and inference capabilities.
+
+By combining P2P networking, blockchain security, decentralized AI computation, and privacy-preserving mechanisms, Loreum creates an autonomous, intelligent AI inference network that is scalable, trustless, and censorship-resistant.
+
+## Loreum Cortex
+A Loreum Cortex is a node module, a decentralized unit that serves as the foundation of the Loreum Network. Each cortex is designed to operate privately and autonomously while contributing monetizable services and intelligence to the broader network.
 
 ### 1. Data Processing and Storage
 - Collecting, processing, and storing data from local and external sources

@@ -1,7 +1,15 @@
 # **The Problem Solved by Loreum**
 
 ## **Abstract**
-Loreum addresses the fundamental challenges of decentralized artificial intelligence (AI) and data-sharing networks by creating an autonomous, privacy-preserving, and interoperable ecosystem. The platform facilitates efficient collaboration between AI models, real-world data, and distributed decision-making while ensuring secure monetization, fair reputation mechanisms, and robust query routing. This paper outlines the core problem Loreum solves and presents its innovative approach to decentralized knowledge inference and AI integration.
+Loreum solves the challenges of centralized AI, data silos, inefficient monetization, and trust issues by introducing a decentralized AI inference network. This network enables secure, privacy-preserving collaboration between AI models, data providers, and computational nodes.
+
+Instead of relying on a few Big Tech AI models, Loreum allows independent nodes to host and monetize their AI models, datasets, and computational power. A reputation-based query routing system ensures that queries are sent to the most relevant and high-performing nodes, improving accuracy and efficiency.
+
+To protect privacy, Loreum integrates decentralized retrieval-augmented generation (RAG) and secure multi-party computation (MPC). These technologies allow AI models to access data without exposing raw information, ensuring compliance with privacy regulations.
+
+Monetization is handled through a stablecoin-based micropayment system, where data providers and AI contributors are directly compensated per query or inference. The network also employs staking-based reputation mechanisms, preventing low-quality or malicious nodes from exploiting the system.
+
+By decentralizing AI inference, incentivizing high-quality contributions, and ensuring efficient, trustless collaboration, Loreum creates a scalable, equitable, and privacy-preserving AI ecosystem. This approach democratizes AI, making it accessible, fair, and efficient for everyone.
 
 ---
 
