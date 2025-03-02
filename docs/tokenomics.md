@@ -37,7 +37,7 @@ Distributed through:
 - **Staking**: $LORE Tokens can be staked in Loreum Nodes for $veLORE to earn protocol rewards and participate in governance.
 - **Governance**: $veLORE holders whom staked $LORE into Loreum Nodes can participate in DAO governance, voting on proposals and decisions that shape the ecosystem.
 - **Incentives**: Used to reward active contributors, participants, and developers.
-- **Market Transactions**: Facilitates transactions within the Loreum ecosystem, including marketplace activities or fee payments.
+- **Network Transactions**: Nodes with higher amounts of $LORE staked have higher reputation scores, and thus attract more network transaction revenue.
 
 ## Vesting Schedule
 

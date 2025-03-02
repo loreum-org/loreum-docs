@@ -22,12 +22,27 @@ module.exports = {
       type: 'doc',
       id: 'solution',
       label: 'Problem & Solution',
+    },
+    {
+      type: 'doc',
+      id: 'difference',
+      label: 'Differentiation',
     },      
     {
       type: 'doc',
       id: 'customers',
       label: 'Customers & Users',
-    },    
+    },  
+    {
+        type: 'doc',
+        id: 'monetization',
+        label: 'Monetization',
+    },
+    {
+      type: 'doc',
+      id: 'metrics',
+      label: 'Key Metrics',
+  },    
     {
       type: 'doc',
       id: 'tokenomics',

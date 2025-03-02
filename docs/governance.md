@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Loreum Network's governance model is designed to be decentralized, autonomous, and collaborative, enabling seamless interaction between various nodes and agents.
+The Loreum Network's governance model is designed to be decentralized, autonomous, and collaborative, enabling seamless interaction between various nodes and agents. Governance operations are anchored in [**Loreum DAO LLC**](https://wyobiz.wyo.gov/business/FilingDetails.aspx?eFNum=125060165205138053238194195156008091016066006249), a Wyoming-based entity that oversees the treasury and token economic structure of the organization. Additionally, operational management, staffing, and engineering are handled by [**Loreum Labs, Ltd.**](https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?p=0&corpId=15129443&V_TOKEN=null&crpNm=Loreum%20Labs%20Ltd&crpNmbr=&bsNmbr=&cProv=&cStatus=&cAct=), a Canada-based company responsible for executing the network's technical roadmap.
 
 ## Key Components
 
@@ -23,7 +23,7 @@ The Loreum Network's governance model is designed to be decentralized, autonomou
 - **Flexibility**: Supports both open and permissioned participation, adapting to various needs.
 
 ### NFT-Based Membership
-- **Membership Representation**: Voting rights and membership can be represented by NFTs, allowing for dynamic governance sub-communiities, as well as geo-politically aligned restrictions on membership.
+- **Membership Representation**: Voting rights and membership can be represented by NFTs, allowing for dynamic governance sub-communities, as well as geo-politically aligned restrictions on membership.
 - **Interconnected Leaderboard**: Chambers can hold NFT tokens of other Chambers, enabling interconnected leaderboard participation.
 
 ## Extensibility
@@ -36,4 +36,5 @@ The Loreum Network's governance model is designed to be decentralized, autonomou
 
 ---
 
-This governance model emphasizes decentralization, security, and flexibility, fostering a collaborative and inclusive environment for all participants.
+This governance model emphasizes decentralization, security, and flexibility, fostering a collaborative and inclusive environment for all participants while ensuring structured operations through Loreum DAO LLC and engineering execution via Loreum Labs, Ltd.
+
