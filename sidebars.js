@@ -17,7 +17,22 @@ module.exports = {
       type: 'doc',
       id: 'mission',
       label: 'Mission',
+    },
+    {
+      type: 'doc',
+      id: 'solution',
+      label: 'Problem & Solution',
+    },      
+    {
+      type: 'doc',
+      id: 'customers',
+      label: 'Customers & Users',
     },    
+    {
+      type: 'doc',
+      id: 'tokenomics',
+      label: 'Tokenomics',
+    },
     {
       type: 'category',
       label: 'Consensus',
@@ -45,12 +60,7 @@ module.exports = {
           label: 'Fraud Prevention'
         },        
       ],
-    },
-    {
-      type: 'doc',
-      id: 'tokenomics',
-      label: 'Tokenomics',
-    },
+    },    
     {
       type: 'doc',
       id: 'architecture',
