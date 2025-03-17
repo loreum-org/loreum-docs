@@ -13,31 +13,36 @@ module.exports = {
       id: 'litepaper',
       label: 'Litepaper',
     },
+    // {
+    //   type: 'doc',
+    //   id: 'mission',
+    //   label: 'Mission',
+    // },
     {
       type: 'doc',
-      id: 'mission',
-      label: 'Mission',
+      id: 'architecture',
+      label: 'Architecture',
     },
-    {
-      type: 'doc',
-      id: 'solution',
-      label: 'Problem & Solution',
-    },
-    {
-      type: 'doc',
-      id: 'difference',
-      label: 'Differentiation',
-    },      
-    {
-      type: 'doc',
-      id: 'customers',
-      label: 'Customers & Users',
-    },  
-    {
-        type: 'doc',
-        id: 'monetization',
-        label: 'Monetization',
-    },
+    // {
+    //   type: 'doc',
+    //   id: 'solution',
+    //   label: 'Problem & Solution',
+    // },
+    // {
+    //   type: 'doc',
+    //   id: 'difference',
+    //   label: 'Differentiation',
+    // },      
+    // {
+    //   type: 'doc',
+    //   id: 'customers',
+    //   label: 'Customers & Users',
+    // },  
+    // {
+    //     type: 'doc',
+    //     id: 'monetization',
+    //     label: 'Monetization',
+    // },
     {
       type: 'category',
       label: 'Metrics',
@@ -61,16 +66,12 @@ module.exports = {
         }      
       ],
     },
-    {
-      type: 'doc',
-      id: 'risk',
-      label: 'Risks',
-    },      
-    {
-      type: 'doc',
-      id: 'tokenomics',
-      label: 'Tokenomics',
-    },
+    // {
+    //   type: 'doc',
+    //   id: 'risk',
+    //   label: 'Risks',
+    // },      
+
     {
       type: 'category',
       label: 'Consensus',
@@ -137,16 +138,16 @@ module.exports = {
         },          
       ],
     },    
-    {
-      type: 'doc',
-      id: 'landscape',
-      label: 'Landscape',
-    },      
-    {
-      type: 'doc',
-      id: 'architecture',
-      label: 'Architecture',
-    },
+    // {
+    //   type: 'doc',
+    //   id: 'landscape',
+    //   label: 'Landscape',
+    // },      
+    // {
+    //   type: 'doc',
+    //   id: 'architecture',
+    //   label: 'Architecture',
+    // },
     {
       type: 'doc',
       id: 'roadmap',
@@ -156,6 +157,11 @@ module.exports = {
       type: 'doc',
       id: 'governance',
       label: 'Governance',
+    },
+    {
+      type: 'doc',
+      id: 'tokenomics',
+      label: 'Tokenomics',
     },    
     {
       type: 'category',

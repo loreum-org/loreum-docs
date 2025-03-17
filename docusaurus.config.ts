@@ -21,8 +21,11 @@ module.exports = {
       tagName: 'script',
       attributes: {
         src: 'https://umami.loreum.org/script.js',
-        "data-website-id": "b4198c1b-6151-48bb-a3b9-231c4c54d6a0"
+        "data-website-id": "b4198c1b-6151-48bb-a3b9-231c4c54d6a0",
+        "async": "true",
+        "defer": "true"
       },
+      onError: "console.warn('Analytics script failed to load')"
     },
   ],
   themeConfig: {
