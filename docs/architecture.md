@@ -17,23 +17,6 @@ The current AI technology stack relies heavily on centralized infrastructure:
 2. App processes and routes to appropriate providers
 3. Response aggregated and returned to user
 
-#### Service Layers
-
-##### Model Layer
-- AI inference providers (OpenAI, xAI, Google, Anthropic)
-- Model selection and orchestration
-- Inference optimization
-
-##### Cloud Layer
-- Compute infrastructure (GCP, AWS)
-- Resource scaling
-- Data storage/processing
-
-##### Service Layer
-- External API integrations
-- Data providers (Gmail, LinkedIn, Bloomberg)
-- Authentication/access management
-
 This architecture uses a middleware pattern to abstract provider interactions and handle request routing, with dependencies on external AI, cloud, and data services.
 
 ## The Loreum Network
