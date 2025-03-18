@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document provides a comprehensive overview of the Loreum architecture, from its current technological context to its innovative decentralized design. We'll explore how Loreum transforms traditional AI infrastructure into a distributed, scalable network.
+This document provides an overview of the Loreum architecture, from the current technological context to Loreum's innovative decentralized design. We'll explore how Loreum transforms traditional AI infrastructure into a distributed, scalable network.
 
 ## Current AI Infrastructure
 
